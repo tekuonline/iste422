@@ -1,0 +1,16 @@
+apply plugin: 'java'
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src/oata/'
+        }
+        }
+        }
+jar{ manifest {
+	attributes 'Main-Class':'oata.HelloWorld'
+
+
+}
+
+}
